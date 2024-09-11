@@ -1,16 +1,14 @@
 ## Concept of Singular Value Decomposition (SVD)
 
-For an image represented as a matrix \( X \) of size \( nx \times ny \), SVD decomposes \( X \) into three matrices:
+For an image represented as a matrix `X` of size `nx × ny`, SVD decomposes `X` into three matrices:
 
-\[
-X = U \cdot S \cdot V^T
-\]
-
+`X = U ⋅ S ⋅ V^T`
 
 Where:
-- **\( U \)** is an \( nx \times nx \) matrix of left singular vectors.
-- **\( S \)** is an \( nx \times ny \) diagonal matrix containing singular values in decreasing order.
-- **\( V^T \)** is an \( ny \times ny \) matrix of right singular vectors.
+
+- **`U`** is an `nx × nx` matrix of left singular vectors.
+- **`S`** is an `nx × ny` diagonal matrix containing singular values in decreasing order.
+- **`V^T`** is an `ny × ny` matrix of right singular vectors.
 
 ### Singular Values:
 - The singular values in **\( S \)** represent the importance of the corresponding components of the image.
