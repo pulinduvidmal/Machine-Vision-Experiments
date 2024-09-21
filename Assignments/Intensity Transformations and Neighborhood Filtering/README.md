@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Read the image
-image = cv2.imread('emma', 0)  # Grayscale
+image = cv2.imread('emma.jpg', 0)  # Grayscale
 
 # Define the intensity transformation as a function
 def intensity_transform(pixel_value):
